@@ -1,0 +1,59 @@
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+/*****************
+Table styles
+*****************/
+#mainContent table#gearTbl {
+	width: 500px;
+	background: #574f3e
+	border-collapse: collapse;
+	margin: 0 auto;
+	border: 1px solid #333;
+}
+#mainContent #gearTbl thead{
+	font-size: 1em;
+	color: #fff;
+	font-weight: normal;
+}
+
+#mainContent #gearTbl tbody{
+	font-size: .625em;
+	font-weight: normal;
+}
+#mainContent table#gearTbl caption{
+	font-size: 1.4em;
+	font-weight: bold;
+	color: #333;
+	text-align: center;
+	padding-bottom: .5em;
+}
+#mainContent #gearTbl th{
+	background: #444;
+	height: 190px;
+	text-align: center;
+	padding-bottom:0.5em;
+	border: 1px solid #333;
+	vertical-align: bottom;
+}
+#mainContent #gearTbl th.sony{
+	background: #444 url(../images/sony_dscf717.gif) no-repeat center;
+}
+#mainContent #gearTbl th.fuji{
+	background: #444 url(../images/fuji_finepixf480.gif)  no-repeat center;
+}
+#mainContent #gearTbl td{
+	padding: 1.5em;
+	border: 1px solid #333;
+}
+#mainContent #gearTbl td.specs{
+	text-align: left;
+	font-weight: bold;
+}
+#mainContent #gearTbl tr.odd{
+	background: #8c7e62;
+}
+#mainContent #gearTbl tr:hover {
+	background: #333;
+}
