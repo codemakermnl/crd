@@ -1,9 +1,9 @@
 <?php  
 $db_host = "localhost"; 
-// $db_username = "ReyesLRoot";  
-// $db_pass = "1234567";  
-$db_username = "root";  
-$db_pass = "";  
+$db_username = "ReyesLRoot";  
+$db_pass = "1234567";  
+// $db_username = "root";  
+// $db_pass = "";  
 $db_name = "ite101store"; 
 
 // Run the actual connection here  
